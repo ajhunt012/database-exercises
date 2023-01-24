@@ -15,3 +15,4 @@ SELECT  count(gender), gender
 FROM employees
 WHERE first_name = 'Vidya' OR last_name like 'Irene' OR last_name like 'Maya'
 GROUP BY gender;
+
